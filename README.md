@@ -76,18 +76,3 @@ Diffusion models are applied in various domains, including:
 
 Diffusion models use the principles of diffusion processes and neural networks to generate and restore images. By understanding and reversing the diffusion process, these models provide powerful tools for various generative tasks.
 
-## Requirements
-
-- Python 3.7+
-- PyTorch 1.9.0+
-- NumPy
-- Matplotlib
-- (Optional) CUDA for GPU acceleration
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/YourUsername/DiffusionModel.git
-   cd DiffusionModel
