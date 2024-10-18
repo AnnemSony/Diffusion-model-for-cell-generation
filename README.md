@@ -75,4 +75,5 @@ Diffusion models are applied in various domains, including:
 ### Summary
 
 Diffusion models use the principles of diffusion processes and neural networks to generate and restore images. By understanding and reversing the diffusion process, these models provide powerful tools for various generative tasks.
+Please refer: https://medium.com/@annemsony
 
