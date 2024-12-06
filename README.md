@@ -46,8 +46,8 @@ The diffusion process involves adding noise to data in a series of steps, gradua
 ### Gaussian Noise
 
 Gaussian noise is characterized by:
-- **Mean (\(\mu\))**: Average value of the noise, typically set to zero.
-- **Variance (\(\sigma^2\))**: Measures the spread of the noise values. Increases during the forward process and decreases in the reverse process.
+- **Mean ($\mu$)**: Average value of the noise, typically set to zero.
+- **Variance ($\sigma^2$)**: Measures the spread of the noise values. Increases during the forward process and decreases in the reverse process.
 
 ---
 
@@ -57,20 +57,24 @@ Gaussian noise is characterized by:
 
 The forward process is defined as:
 
-\[ x_{t} = \sqrt{1 - \beta_{t}} x_{t-1} + \sqrt{\beta_{t}} \epsilon_{t} \]
+$$
+x_t = \sqrt{1 - \beta_t} \cdot x_{t-1} + \sqrt{\beta_t} \cdot \epsilon_t
+$$
 
 Where:
-- \(x_{t}\): Noisy image at step \(t\).
-- \(\beta_{t}\): Noise schedule.
-- \(\epsilon_{t}\): Gaussian noise with mean \(0\) and variance \(\sigma_{t}^{2}\).
+- $x_t$: Noisy image at step $t$.
+- $\beta_t$: Noise schedule.
+- $\epsilon_t$: Gaussian noise with mean $0$ and variance $\sigma_t^2$.
 
 ### Reverse Process
 
 The reverse process is modeled as:
 
-\[ p_{\theta}(x_{t-1} | x_{t}) \]
+$$
+p_\theta(x_{t-1} | x_t)
+$$
 
-Where \(\theta\) represents the parameters of the neural network model that learns to predict and remove the noise.
+Where $\theta$ represents the parameters of the neural network model that learns to predict and remove the noise.
 
 ---
 
@@ -113,6 +117,7 @@ Diffusion models use the principles of diffusion processes and neural networks t
 ## References
 
 For more details, please refer to this article on [Medium](https://medium.com/@annemsony).
+
 
 
 
