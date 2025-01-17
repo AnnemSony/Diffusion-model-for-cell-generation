@@ -3,8 +3,7 @@ Please refer my blog for detail understanding of Architecture and Inputs: https:
 
 This repository contains an implementation of a diffusion model for generating images and denoising corrupted images. Diffusion models are powerful generative models that learn to reverse a diffusion process to create high-quality data from noise.
 
-![Noise to Image Generation](noimg.png)
----
+
 
 ## Table of Contents
 
