@@ -1,5 +1,5 @@
 # Diffusion Model
-Please refer my blog for detail understanding of Architecture and Input data: https://medium.com/@annemsony/introduction-to-diffusion-models-56becd6e5c1d.
+Please refer my medium blog for detail understanding of Architecture : https://medium.com/@annemsony/introduction-to-diffusion-models-56becd6e5c1d.
 
 This repository contains an implementation of a diffusion model for generating images and denoising corrupted images. Diffusion models are powerful generative models that learn to reverse a diffusion process to create high-quality data from noise.
 
